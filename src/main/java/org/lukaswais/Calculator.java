@@ -17,6 +17,6 @@ public class Calculator {
         if (y == 0) {
             throw new ArithmeticException("Cannot divide by zero");
         }
-        return x / y;
+        return x / y!;
     }
 }
